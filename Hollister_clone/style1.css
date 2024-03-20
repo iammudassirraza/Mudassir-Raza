@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: arial;
+
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.nav-logo{
+    background-image: url("eagle1.jpg");
+    height: 60px;
+    width: 100px;
+    background-size: cover;
+    margin-left: 50px;
+
+}
+
+.gilly{
+    background-color:whitesmoke;
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 200px;
+}
+.hicks{
+    font-size: 13px;
+    font-weight: 1.2rem;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+
+
+}
+.first-icon{
+    padding-right: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sign{
+    font-weight: bold;
+}
+/*---------SEARCH  PART ----*/
+
+
+.search{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.baby-search{
+    display: flex;
+    font-size: 18px;
+    color: #2c2a27;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 60%;
+    padding-right: 400px;
+    
+}
+.hollister{
+    font-size: 1.3rem;
+}
+.second-icon{
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.a-icon{
+    padding-right: 25px;
+    font-size: 25px;
+}
+.b-icon{
+    font-size: 25px;
+}
+
+.c-icon{
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+/*---------PANNEL SECTION ----*/
+
+.pannel{
+    background-color: rgb(7, 58, 65,0.8);
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.free{
+    padding-left: 15px;
+
+}
+.shop{
+    padding-left: 20px;
+
+}
+.men{
+    padding-left: 20px;
+}
+/*---------BODY SECTION ----*/
+
+.main-body{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 400px;
+    width: 30%;
+   
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.padding{
+    padding-top: 110px;
+}
+.box2{
+    height: 370px;
+    width: 20%;
+   
+}
+.box3{
+    height: 370px;
+    width: 20%;
+   
+}
+.box4{
+    height: 370px;
+    width: 20%;
+    
+}
+.boxy{
+    font-size: 2.2rem;
+    font-weight: 400px;
+    padding-right: 240px;
+
+}
+.relaxed{
+    font-size: 1.4rem;
+    padding-top: 10px;
+    padding-right: 100px;
+    font-family: cursive;
+}
+.type{
+    font-size: 1.4rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: cursive;
+  
+}
+.box2{
+    background-image: url("holli\(1\).jpg");
+    height: 400px;
+    width: 20%;
+    background-size: cover;
+    margin-top: 15px;
+}
+.box3{
+    background-image: url("holli\(2\).png");
+    height: 400px;
+    width: 20%;
+    background-size: cover;
+    margin-top: 15px;
+}
+.box4{
+    background-image: url("holli\(3\).jpg");
+    height: 400px;
+    width: 20%;
+    background-size: cover;
+    margin-top: 15px;
+}
+/*---------SECOND-BODY SECTION ----*/
+
+.second-body{
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.arrivals{
+    font-size: 2.2rem;
+    font-weight: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.styles{
+    font-size: 1.4rem;
+
+}
+/*---------THIRD-BODY SECTION ----*/
+.third-body{
+    background-color: white;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.first-box{
+    background-image: url("HOLLI\(4\).jpg");
+    height: 600px;
+    width: 40%;
+    background-size: cover;
+
+}
+
+.second-box{
+    background-image: url("HOLLI\(5\).jpg");
+    height: 600px;
+    width: 40%;
+    background-size: cover;
+
+}
+
+/*---------FOURTH-BODY SECTION ----*/
+
+.fourth-body{
+    height: 240px;
+    width: 100%;
+    background-color: rgb(178, 173, 173,0.5);
+    text-align: center;
+    padding-top: 35px;
+    border-radius: 15px;
+}
+.fourth-body:hover{
+    border: 2px solid black;
+}
+.uni{
+    font-size: 2.1rem;
+    font-weight: 400px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.students{
+    font-size: 2.4rem;
+    font-weight: 500px;
+    padding-top: 15px;
+    font-family: cursive;
+}
+.for{
+    font-size: 1.3rem;
+    padding-top: 10px;
+}
+.verify{
+    font-size: 1.3rem;
+}
+/*---------FIFTH-BODY SECTION ----*/
+
+.fifth-body{
+    height: 260px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 33px;
+    text-align: center;
+    color: black;
+    
+}
+.one-box{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 30%;
+    height: 220px;
+    background-color: rgba(240, 248, 255, 0.444);
+
+}
+.one-box:hover{
+    border: 2px solid black;
+}
+.main-one{
+    padding-top: 40px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.house{
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.get{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.two-box{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 30%;
+    height: 220px;
+    background-color: rgba(240, 248, 255, 0.444);
+}
+.two-box:hover{
+    border: 2px solid black;
+}
+.klarna{
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding-top: 50px;
+    font-family: cursive;
+
+}
+.pay{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.three-box{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 30%;
+    height: 220px;
+    background-color: rgba(240, 248, 255, 0.444);
+
+}
+.three-box:hover{
+    border: 2px solid white;
+}
+.location{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 45px;
+}
+.order{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/*--------FOOTER PART-------*/
+
+.last{
+    height: 300px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+
+}
+.because{
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    background-color:navajowhite;
+    padding-top: 15px;font-family: cursive;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    margin-top: 25px;
+    font-weight: 300px;
+    font-size: 1rem;
+}
+.brand{
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.hol{
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.gill{
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.us{
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.help-us{
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.finish{
+    background-color: rgba(240, 248, 255, 0.444);
+    height: 120px;
+    width: 100%;
+    border-top: 1.5px solid black;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
